@@ -1,4 +1,4 @@
-let listaDePecas = ["abc", "abc", "abc"];
+let listaDePecas = ["motor", "amortecedor", "limpador de para-brisa"];
 
 //verifica se a lista de peças tem - de 10 itens
 if(listaDePecas.length < 10){
@@ -19,7 +19,7 @@ if(peso >= 100){
     console.log("A peça é mais leve do que o recomendado")
 }
 
-let nomeDaPeça = ""
+let nomeDaPeça = "motor"
 //verifica se o número de caracteres do nome da peça é ideal
 if(nomeDaPeça.length >= 3){
     console.log("o nome da peça é ideal")
